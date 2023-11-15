@@ -16,7 +16,7 @@ class CarInterface(CarInterfaceBase):
     ret.safetyConfigs = [get_safety_config(car.CarParams.SafetyModel.mazda)]
     ret.radarUnavailable = True
 
-    ret.dashcamOnly = False
+    ret.dashcamOnly = False 
 
     ret.steerActuatorDelay = 0.1
     ret.steerLimitTimer = 0.8
